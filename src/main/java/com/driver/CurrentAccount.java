@@ -44,10 +44,10 @@ public class CurrentAccount extends BankAccount{
         }
         // validation for not possible
         if(n%2==0){
-            if(max>(n/2)) return "";
+            if(max>(n/2)+1) return "";
         }
         else {
-            if (max > (n / 2) + 1) return "";
+            if (max > (n / 2) + 2) return "";
         }
         // it's possible
         char ans[]=new char[n];
